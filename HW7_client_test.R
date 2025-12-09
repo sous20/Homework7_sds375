@@ -5,7 +5,7 @@ library(jsonlite)
 library(tidyverse)
 
 # API base URL
-base_url = "http://127.0.0.1:47821"
+base_url = "http://127.0.0.1:8000"
 
 # Load test data to get valid sample rows
 test = read_csv("test_dataset.csv.gz", show_col_types = FALSE)
